@@ -11,16 +11,28 @@ copia para aplicarlo.
 
 ## Estado
 
-Traducido el **58 %** del texto (10.345 de 17.859 mensajes).
+Traducido el **87 %** del texto (15.487 de 17.859 líneas).
 
 | Parte | Progreso |
 |---|---|
-| Historia principal y escenas | 98 % |
-| Conversaciones secundarias | 69 % |
-| Menús, objetos y habilidades | 20 % |
+| Historia principal y escenas | **99 %** |
+| Conversaciones secundarias | 96 % |
+| Menús y sistema | 88 % |
+| Nombres y descripciones de objetos y habilidades | 18 % |
+| Texto dentro de imágenes | 0 % |
 
-El guion está prácticamente terminado; queda el grueso de la interfaz, que es
-donde más cuesta encajar el español en el espacio disponible.
+**La historia está terminada**: se puede jugar de principio a fin en español.
+
+### Lo que sigue en inglés
+
+**Objetos y habilidades.** Sus nombres y descripciones están casi sin tocar. Es
+donde el espacio aprieta más, porque hay que caber en el hueco del original.
+
+**El texto dentro de las imágenes.** Parte del texto del juego no está guardado
+como texto, sino **dibujado dentro de los gráficos**: el menú principal
+(`New Game`, `Options`, `Extras`), los rótulos del menú de sistema y de equipo, y
+las pantallas de guardar y cargar. Traducirlos no es escribir, es redibujar cada
+rótulo píxel a píxel respetando su marco, así que van para más adelante.
 
 ## Cómo aplicar el parche
 
