@@ -24,25 +24,29 @@ donde más cuesta encajar el español en el espacio disponible.
 
 1. Descarga el parche `.xdelta` de la sección **[Releases](../../releases)**.
 2. Consigue tu copia del juego en versión **USA**. El parche solo funciona con
-   esa versión concreta; el md5 correcto viene indicado en cada release.
-3. Aplica el parche con una de estas herramientas:
+   esa versión exacta.
+3. **Comprueba que tu copia es la correcta** antes de nada:
+
+   | | |
+   |---|---|
+   | Archivo | `Luminous Arc (USA).nds` |
+   | Tamaño | 134.217.728 bytes (128 MB) |
+   | MD5 | `cc5aa096e73df3a2fffc23a779a6052f` |
+
+   ```bash
+   md5sum "Luminous Arc (USA).nds"     # Linux
+   md5 "Luminous Arc (USA).nds"        # macOS
+   CertUtil -hashfile "Luminous Arc (USA).nds" MD5   # Windows
+   ```
+
+   Si no coincide, el parche fallará o dará un resultado corrupto.
+4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "juego original.nds" parche.xdelta "juego traducido.nds"`
-4. Carga la ROM resultante en tu emulador o flashcard preferidos.
+5. Carga la ROM resultante en tu emulador o flashcard preferidos.
 
-Si el parche da error, casi siempre es que la copia de partida no es la correcta.
-Comprueba el md5 antes de nada.
-
-## Sobre la traducción
-
-- Español de España, sin regionalismos.
-- Se respeta el tratamiento de cada personaje: los caballeros tratan de usted a
-  los cardenales, los compañeros se tutean, y cada uno conserva su forma de
-  hablar.
-- Los nombres propios se mantienen (Alph, Cecille, Lucia...); los títulos y
-  epítetos sí se traducen (Bruja del Crepúsculo, Gran Cardenal, Caballero Arc).
-- Los textos se ajustan al espacio de cada cuadro de diálogo, para que nada
-  quede cortado en pantalla.
+Cada release indica además el md5 de la ROM ya traducida, por si quieres
+confirmar que el parcheado ha ido bien.
 
 ## Aviso
 
