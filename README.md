@@ -1,5 +1,7 @@
 # Luminous Arc — Traducción al español
 
+[![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
+
 Traducción completa al **español de España** de *Luminous Arc* (Nintendo DS, 2007),
 el RPG táctico de imageepoch publicado por Marvelous y Atlus USA, que nunca salió
 en español.
@@ -47,13 +49,6 @@ donde más cuesta encajar el español en el espacio disponible.
 
 Cada release indica además el md5 de la ROM ya traducida, por si quieres
 confirmar que el parcheado ha ido bien.
-
-## Apoyar el proyecto
-
-La traducción es gratuita y lo seguirá siendo. Si te ha gustado y te apetece
-invitarme a un café por las horas que lleva detrás, se agradece:
-
-[![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
 ## Aviso
 
