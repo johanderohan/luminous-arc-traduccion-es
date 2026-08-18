@@ -48,6 +48,13 @@ donde más cuesta encajar el español en el espacio disponible.
 Cada release indica además el md5 de la ROM ya traducida, por si quieres
 confirmar que el parcheado ha ido bien.
 
+## Apoyar el proyecto
+
+La traducción es gratuita y lo seguirá siendo. Si te ha gustado y te apetece
+invitarme a un café por las horas que lleva detrás, se agradece:
+
+[![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
+
 ## Aviso
 
 Este proyecto es una traducción hecha por afición, sin ánimo de lucro y sin
