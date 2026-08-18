@@ -1,0 +1,9 @@
+# Nunca subir el juego ni nada derivado de su contenido
+*.nds
+*.zip
+*.7z
+*.rar
+textos*.json
+traduccion/
+build*/
+*_unpacked/
