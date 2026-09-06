@@ -2,7 +2,7 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
-Traducción completa al **español de España** de *Luminous Arc* (Nintendo DS, 2007),
+Traducción al **español de España** de *Luminous Arc* (Nintendo DS, 2007),
 el RPG táctico de imageepoch publicado por Marvelous y Atlus USA, que nunca salió
 en español.
 
@@ -11,28 +11,40 @@ copia para aplicarlo.
 
 ## Estado
 
-Traducido el **94 %** del texto (16.862 de 17.859 líneas).
+Última versión: **[v1.1 — Menús e imágenes en español](../../releases/tag/v1.1)**.
 
-| Parte | Progreso |
+Esta versión incorpora **227 rótulos traducidos dentro de imágenes**: menú
+principal, opciones, guardar/cargar, equipo, estadísticas, títulos de capítulos
+y nombres de lugares, entre otros. Se conservan las paletas del juego y se han
+ajustado la alineación y la altura de las letras.
+
+También corrige letras que desaparecían en ayudas y nombres de objetos,
+como la **ú** de «Ajusta el volumen de la música». Incluye los caracteres
+**á é í ó ú ü ñ Á É Í Ó Ú Ü Ñ ¡ ¿**, recupera tildes omitidas en algunas
+intervenciones en mayúsculas y completa ocho descripciones que usaban «&».
+
+La cobertura de referencia del guion sigue siendo la publicada en v1.0.1:
+aproximadamente **94 %** (16.862 de 17.859 líneas). Los rótulos gráficos se
+cuentan aparte; esta versión no recalcula el porcentaje global del guion.
+
+| Parte | Estado |
 |---|---|
 | Historia principal y escenas | **99 %** |
 | Objetos y habilidades | **98 %** |
 | Conversaciones secundarias | 96 % |
 | Menús y sistema | 88 % |
-| Texto dentro de imágenes | 0 % |
+| Texto dentro de imágenes | **227 rótulos traducidos**; revisión visual parcial |
 
-**El juego se puede jugar entero en español**: historia, objetos, habilidades y
-sus descripciones.
+### Lo que queda pendiente
 
-### Lo que sigue en inglés
+Quedan textos sin traducir y la revisión completa durante una partida. La
+corrección de «música» se ha comprobado en el emulador; no equivale a una
+prueba de todo el juego de principio a fin.
 
-**El texto dibujado dentro de las imágenes.** Parte del texto del juego no está
-guardado como texto, sino pintado dentro de los gráficos: el menú principal
-(`New Game`, `Options`, `Extras`), los rótulos del menú de sistema y de equipo, y
-las pantallas de guardar y cargar.
-
-Traducirlos no es escribir: hay que dibujar cada rótulo en los tiles libres de su
-hoja y repuntar los sprites que lo componen. Está previsto para más adelante.
+**Las imágenes traducidas sí están incluidas en el parche.** Aún quedan algunos
+avisos de combate, botones y textos de pantallas secundarias por traducir, además
+de revisar todos los gráficos durante una partida. No se presenta como una
+traducción de imágenes completa ni como una revisión visual de todo el juego.
 
 ## Cómo aplicar el parche
 
@@ -57,7 +69,12 @@ hoja y repuntar los sprites que lo componen. Está previsto para más adelante.
 4. Aplica el parche con una de estas herramientas:
    - **Windows**: [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    - **Linux / macOS**: `xdelta3 -d -s "juego original.nds" parche.xdelta "juego traducido.nds"`
-5. Carga la ROM resultante en tu emulador o flashcard preferidos.
+5. Para **v1.1**, comprueba que la ROM resultante tiene MD5
+   **`985588c9cba4bae92b86b94de2482986`**.
+6. Carga la ROM resultante en tu emulador o flashcard preferidos.
+
+Aplica cada versión sobre la **ROM USA original**, no sobre una ROM ya
+traducida ni sobre el parche anterior.
 
 Cada release indica además el md5 de la ROM ya traducida, por si quieres
 confirmar que el parcheado ha ido bien.
