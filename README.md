@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/nintendo-ds/luminous-arc)**.
+
 Traducción al **español de España** de *Luminous Arc* (Nintendo DS, 2007),
 el RPG táctico de imageepoch publicado por Marvelous y Atlus USA, que nunca salió
 en español.
